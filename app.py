@@ -171,6 +171,8 @@ Be sure to take a look at their API.
 
 https://tenor.com/gifapi/documentation
 
+https://developers.google.com/tenor/guides/quickstart
+
 Register and make an API key for yourself. 
 Set up dotenv, create a .env file and define a variable 
 API_KEY with a value that is the api key for your account. """
