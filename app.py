@@ -178,7 +178,7 @@ API_KEY with a value that is the api key for your account. """
 API_KEY = os.getenv('API_KEY')
 print(API_KEY)
 
-TENOR_URL = 'https://api.tenor.com/v1/search'
+TENOR_URL = 'https://g.tenor.com/v1/search'
 pp = PrettyPrinter(indent=4)
 
 @app.route('/gif_search', methods=['GET', 'POST'])
