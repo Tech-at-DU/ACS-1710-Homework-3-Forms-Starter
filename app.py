@@ -169,8 +169,6 @@ def image_filter():
 """You'll be using the Tenor API for this next section. 
 Be sure to take a look at their API. 
 
-https://tenor.com/gifapi/documentation
-
 https://developers.google.com/tenor/guides/quickstart
 
 Register and make an API key for yourself. 
