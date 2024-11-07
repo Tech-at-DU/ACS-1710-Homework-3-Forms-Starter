@@ -194,6 +194,7 @@ def gif_search():
                 # TODO: Add in key-value pairs for:
                 # - 'q': the search query
                 # - 'key': the API key (defined above)
+                #- 'client_key': 'Your project name',
                 # - 'limit': the number of GIFs requested
             })
 
