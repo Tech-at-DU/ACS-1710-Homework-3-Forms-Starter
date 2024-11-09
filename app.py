@@ -172,8 +172,18 @@ Be sure to take a look at their API.
 https://developers.google.com/tenor/guides/quickstart
 
 Register and make an API key for yourself. 
-Set up dotenv, create a .env file and define a variable 
-API_KEY with a value that is the api key for your account. """
+
+You may need to install dotenv with: pip3 install python_dotenv
+
+Create a file named: '.env' and define a variable 
+API_KEY with a value that is the api key for your account. 
+Like this:  
+
+API_KEY=yourapikeyishere
+
+Do not add any spaces around the = !
+
+"""
 
 API_KEY = os.getenv('API_KEY')
 print(API_KEY)
